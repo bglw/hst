@@ -1,0 +1,14 @@
+
+{
+  "headers": [
+    {
+      "match": ".*(wasm|pf).*",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ]
+}
